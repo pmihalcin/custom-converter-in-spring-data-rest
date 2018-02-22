@@ -31,6 +31,7 @@ You should see JSON schema response with translated enum values:
 ```
 
 Imagine that these enum values are used to populated dropdown in frontend UI client in a grid.
+e.g. [statuses in dropdown](dropdown-statuses.PNG)
 
 When user selects any value, client makes REST call by following e.g. http://localhost:8080/specifications?status=de_Draft what behind the scenes uses `org.springframework.data.querydsl.binding.QuerydslPredicateBuilder` and this component uses `org.springframework.core.convert.support.GenericConversionService.convert`
 
