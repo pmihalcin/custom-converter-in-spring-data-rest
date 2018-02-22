@@ -1,6 +1,7 @@
-package mihalcin.customconverter;
+package mihalcin.customconverter.convert;
 
 import lombok.RequiredArgsConstructor;
+import mihalcin.customconverter.Specification;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.data.rest.webmvc.json.EnumTranslator;
 import org.springframework.stereotype.Component;

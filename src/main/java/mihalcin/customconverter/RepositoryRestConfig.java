@@ -1,5 +1,6 @@
 package mihalcin.customconverter;
 
+import mihalcin.customconverter.convert.TranslationStringToSpecificationStatusEnumConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.support.ConfigurableConversionService;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter;
