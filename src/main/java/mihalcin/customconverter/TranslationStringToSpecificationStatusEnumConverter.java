@@ -3,8 +3,9 @@ package mihalcin.customconverter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.data.rest.webmvc.json.EnumTranslator;
+import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 @RequiredArgsConstructor
 public class TranslationStringToSpecificationStatusEnumConverter implements Converter<String, Specification.Status> {
 
