@@ -1,11 +1,10 @@
 package mihalcin.customconverter;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.core.convert.support.ConfigurableConversionService;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter;
 
-@Configuration
+//@Configuration
 @RequiredArgsConstructor
 public class RepositoryRestConfig extends RepositoryRestConfigurerAdapter {
 
